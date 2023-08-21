@@ -1,41 +1,41 @@
-# TaskTracker
+#TaskTracker
 
-TaskTracker es una aplicación de gestión de tareas diseñada para ayudarte a mantener un seguimiento efectivo de tus tareas diarias, recordatorios importantes y proyectos pendientes. Con una interfaz intuitiva y funcionalidades personalizables, TaskTracker te permite organizar y priorizar tus tareas de manera eficiente.
+TaskTracker is a task management application designed to help you effectively keep track of your daily tasks, important reminders, and pending projects. With an intuitive interface and customizable features, TaskTracker allows you to organize and prioritize your tasks efficiently.
 
-## Características Principales
+## Main Features
 
-- **Creación y Edición de Tareas:** Agrega nuevas tareas con un título descriptivo, una descripción detallada y fechas límite. Edita las tareas existentes para mantener la información actualizada.
+- **Creating and editing tasks:** Add new tasks with a descriptive title, detailed description and due dates. Edit existing tasks to keep information up to date.
 
-- **Recordatorios Personalizados:** Configura recordatorios para tus tareas y nunca olvides un plazo importante.
+- **Personalized reminders:** Set reminders for your tasks and never forget an important deadline.
 
-- **Integración de Imágenes:** Adjunta imágenes desde tu galería o captura nuevas imágenes directamente desde la cámara para enriquecer tus tareas con contenido visual.
+- **Image integration:** Attach images from your gallery or capture new images directly from the camera to enrich your tasks with visual content.
 
-- **Exportación e Importación:** Exporta tus tareas a archivos JSON y comparte con otros. Importa tareas desde archivos JSON para transferir datos entre dispositivos.
+- **Export and import:** Export your tasks to JSON files and share with others. Import tasks from JSON files to transfer data between devices.
 
-- **Búsqueda Avanzada:** Utiliza la función de búsqueda para encontrar rápidamente tareas basadas en palabras clave, fechas y etiquetas.
+- **Advanced search:** Use the search function to quickly find tasks based on keywords.
 
-## Instalación y Uso
+## Installation and Use
 
-1. Clona o descarga este repositorio en tu máquina local.
-2. Abre el proyecto en tu IDE preferido.
-3. Configura las variables de entorno o el archivo de configuración externo con tus credenciales para funciones como el envío de correos electrónicos (sigue las instrucciones en el archivo de configuración).
-4. Ejecuta la aplicación en un emulador o dispositivo Android.
+1. Clone or download this repository to your local machine.
+2. Open the project in your preferred IDE.
+3. Set the environment variables or external configuration file with your credentials for functions like sending emails (follow the instructions in the configuration file).
+4. Run the app on an emulator or Android device.
 
-## Contribución
+## Contribution
 
-Contribuciones son bienvenidas. Si deseas contribuir a esta aplicación, por favor sigue estos pasos:
+Contributions are welcome. If you want to contribute to this app, please follow these steps:
 
-1. Crea un fork del repositorio.
-2. Crea una nueva rama para tu contribución: `git checkout -b feature/nueva-funcion`.
-3. Realiza tus cambios y realiza commits: `git commit -m 'Añade una nueva función'`.
-4. Envía tus cambios al repositorio remoto: `git push origin feature/nueva-funcion`.
-5. Abre un pull request en GitHub.
+1. Create a fork of the repository.
+2. Create a new branch for your contribution: `git checkout -b feature/new-feature`.
+3. Make your changes and commit: `git commit -m 'Add a new feature'`.
+4. Push your changes to the remote repository: `git push origin feature/new-feature`.
+5. Open a pull request on GitHub.
 
 
-## Contacto
+## Contact
 
-Si tienes alguna pregunta o comentario sobre esta aplicación, no dudes en ponerte en contacto conmigo en [adrian.delasheras.cozar@gmail.com](mailto:adrian.delasheras.cozar@gmail.com).
+If you have any questions or comments about this app, feel free to contact me at [adrian.delasheras.cozar@gmail.com](mailto:adrian.delasheras.cozar@gmail.com).
 
 ---
 
-¡Esperamos que disfrutes usando TaskTracker para mejorar tu productividad y mantener tus tareas organizadas!
+We hope you enjoy using TaskTracker to improve your productivity and keep your tasks organized!
