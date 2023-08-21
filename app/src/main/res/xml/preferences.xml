@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="email_preference"
+        android:title="Email Preference"
+        android:summary="Change the email"
+        android:fragment="com.example.listadetareas.SettingsActivity$SettingsFragment" />
+
+</PreferenceScreen>

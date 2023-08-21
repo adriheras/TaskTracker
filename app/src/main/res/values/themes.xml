@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ListaDeTareas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#114E80</item> <!-- Azul -->
+        <item name="colorPrimaryVariant">#1976D2</item> <!-- Azul oscuro -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Blanco -->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#4C74AF</item> <!-- Verde -->
+        <item name="colorSecondaryVariant">#388E3C</item> <!-- Verde oscuro -->
+        <item name="colorOnSecondary">#000000</item> <!-- Negro -->
+
+        <item name="android:colorBackground">#E0F2F1</item>
+
+    </style>
+
+    <style name="Theme.ListaDeTareas.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ListaDeTareas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ListaDeTareas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
