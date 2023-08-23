@@ -419,9 +419,11 @@ public class MainActivity extends AppCompatActivity {
                         String date = task.getDate();
                         jsonObject.put("date", date);
                         // Codifica el BLOB de la imagen a Base64
-                        byte[] imageBlob = task.getImagePath(); // getImagePath() obtiene el BLOB de la imagen
-                        String base64Image = Base64.encodeToString(imageBlob, Base64.DEFAULT);
-                        jsonObject.put("image_path", base64Image);
+                        if (task.getImagePath()!=null){
+                            byte[] imageBlob = task.getImagePath(); // getImagePath() obtiene el BLOB de la imagen
+                            String base64Image = Base64.encodeToString(imageBlob, Base64.DEFAULT);
+                            jsonObject.put("image_path", base64Image);
+                        }
                         jsonArray.put(jsonObject);
                     }
 
@@ -517,11 +519,15 @@ public class MainActivity extends AppCompatActivity {
                                 String title = jsonObject.getString("title");
                                 String description = jsonObject.getString("description");
                                 String date = jsonObject.getString("date");
-
-                                String base64Image = jsonObject.getString("image_path"); // Obtén la representación Base64 de la imagen
-                                byte[] imageBytes = Base64.decode(base64Image, Base64.DEFAULT);
-
-                                Task task = new Task(title, description, date, imageBytes);
+                                Task task;
+                                if(jsonObject.has("image_path")){
+                                    String base64Image = jsonObject.getString("image_path"); // Obtén la representación Base64 de la imagen
+                                    byte[] imageBytes = Base64.decode(base64Image, Base64.DEFAULT);
+                                    task = new Task(title, description, date, imageBytes);
+                                }
+                                else{
+                                    task = new Task(title, description, date, null);
+                                }
                                 importedTasks.add(task);
                             }
 
